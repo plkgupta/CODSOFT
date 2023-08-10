@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background: url(contact.jpg);
+        background-size: cover;
+      }
+
+      .container {
+        margin: 20px;
+        border: 2px solid orange;
+        width: 20px;
+        height: 20px;
+      }
+      .nav {
+        background: transparent;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.6);
+        border-radius: 20px;
+        margin: 20px;
+      }
+      li {
+        display: inline;
+        padding: 0px 30px;
+        color: white;
+        margin: 10px;
+        cursor: pointer;
+      }
+      #logo {
+        float: right;
+        color: white;
+        margin: 0px 20px;
+        font-size: 25px;
+        font-style: italic;
+      }
+      .box {
+        padding: 40px 20px;
+        margin: 350px 100px 0px 100px;
+        background: linear-gradient(45deg, black, rgb(59, 34, 34));
+        height: 137px;
+      }
+
+      h3 {
+        color: palevioletred;
+        font-size: 40px;
+      }
+      button {
+        height: 100px;
+        width: 200px;
+        margin: 0px 80px 0px 80px;
+        background: transparent;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+      button:hover{
+        font-size: 15px;
+      }
+      i {
+        font-size: 40px;
+        padding: 0px;
+        float: top;
+        cursor: pointer;
+      }
+    </style>
+    <title>Contact us</title>
+  </head>
+  <body>
+    <div class="nav">
+      <li onclick="location.href='index.html'">Home</li>
+      <li>About Us</li>
+      <li onclick="location.href='contact.html'">Contact Us</li>
+      <li>Registration</li>
+
+      <i class="fa-solid fa-medal" id="logo"> TMSA </i>
+    </div>
+    <div class="box">
+      <center><h3>Contact Us</h3></center>
+      <div class="box1">
+        <button>
+          <i class="fa-regular fa-envelope"></i>
+          <h4>Email</h4>
+          <p>tmsa@gmail.com</p>
+        </button>
+        <button>
+          <i class="fa-solid fa-phone"></i>
+          <h4>Phone</h4>
+          <p>7896541230</p>
+        </button>
+        <button>
+          <i class="fa-solid fa-location-dot"></i>
+          <h4>Address</h4>
+          <p>Near labour Colony,Dayal Bagh,Agra</p>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

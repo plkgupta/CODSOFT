@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(ball.jpg);
+  background-size: cover;
+}
+.container {
+  margin: 20px;
+  border: 2px solid orange;
+  width: 20px;
+  height: 20px;
+}
+.nav {
+  background: transparent;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+  margin: 20px;
+}
+li {
+  display: inline;
+  padding: 0px 30px;
+  color: white;
+  margin: 10px;
+  cursor: pointer;
+}
+#logo {
+  float: right;
+  color: white;
+  width: 150px;
+  height: 150px;
+  margin: 0px 20px;
+  font-size: 25px;
+  font-style: italic;
+  cursor: pointer;
+}
+h1 {
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+  margin: 170px 0px 0px;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 50px;
+}
+.box {
+  display: flex;
+  width: 210px;
+  margin: 0px 20px;
+  height: 32px;
+  padding: 2px;
+  background-color: white;
+  justify-content: flex-start;
+}
+p {
+  color: white;
+  height: 100px;
+  padding: 0px 0px 0px 1100px;
+  width: 250px;
+  font-size: 30px;
+}
+.email {
+  width: 150px;
+  border: none;
+  margin: 8px 0px 0px 0px;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  background-color: black;
+  height: 30px;
+}
+.btn button {
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
