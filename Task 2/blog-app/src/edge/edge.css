@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Ysabeau+Infant:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,1;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+.edge{
+    flex: 3; 
+    margin: 20px;
+    padding-bottom: 30px;
+    background-color: beige;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img{
+    background: url(../../public/plku1.jpeg) no-repeat center/cover;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    border-radius: 50%;
+    padding: 20px;
+    margin-top: 10px;
+}
+.edgebox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.edgetitle{
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: 20px;
+    color: brown;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: center;
+}
+.para{
+    padding: 30px;
+    text-align: center;
+    font-family: 'PT Serif', serif;
+}
+.edgeskill{
+    list-style: none;
+    margin-bottom: 30px;
+    padding-left: 40px;
+}
+.edgeli{
+    display: inline-block;
+    width: 50%;
+    margin-top: 15px;
+    cursor: pointer;
+    font-family: 'PT Serif', serif;
+}
+.edgesm{
+    margin-top: 15px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.edgeicon{
+    font-style: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+}

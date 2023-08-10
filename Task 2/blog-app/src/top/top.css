@@ -1,0 +1,21 @@
+.title{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Pangolin', cursive;
+    align-items: center;
+}
+.toptitlesm{
+    position: absolute;
+    top: 18%;
+    font-size: 20px;
+    font-weight: 20px;
+}
+.toptitle{
+    position: absolute;
+    padding-top: 40px;;
+    font-size: 100px;
+}
+.topimg{
+    width: 100%;
+    height: 570px;
+}

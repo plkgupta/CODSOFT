@@ -1,0 +1,74 @@
+.update{
+    display: flex;
+}
+.updatebox{
+    flex: 9;
+    padding: 20px;
+}
+.updatetitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.update1{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgb(87, 123, 158);
+    font-family: 'Headland One', serif;
+}
+.update2{
+    color:rgb(1, 45, 88) ;
+    font-size: 12px;
+    cursor: pointer;
+}
+.updateform{
+    display: flex;
+    flex-direction: column;
+}
+.updatePP{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+.updateimg{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    background: url(../../../public/plku1.jpeg) no-repeat center/cover;
+}
+.updateicon{
+    width: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+    height: 25px;
+    border-radius: 50%;
+    background-color:rgb(87, 123, 158) ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pp{
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+.perdet{
+    color: gray;
+    margin: 10px 0px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+
+}
+.updatesubmit{
+    width: 150px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: tomato;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
